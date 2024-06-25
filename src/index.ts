@@ -1,1 +1,1 @@
-export { default } from "./Xpresspay";
+export { default as Xpresspay } from "./Xpresspay";
