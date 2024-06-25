@@ -1,0 +1,51 @@
+{
+  "name": "my-module",
+  "version": "0.1.0",
+  "description": "My new module",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build",
+    "assets"
+  ],
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "open:ios": "xed example/ios",
+    "open:android": "open -a \"Android Studio\" example/android"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "my-module",
+    "MyModule"
+  ],
+  "repository": "https://github.com/Matthew-Oluwajuwon/my-module",
+  "bugs": {
+    "url": "https://github.com/Matthew-Oluwajuwon/my-module/issues"
+  },
+  "author": "Matthew Oluwajuwon <matthewoluwajuwon056@gmail.com> (https://github.com/Matthew-Oluwajuwon)",
+  "license": "MIT",
+  "homepage": "https://github.com/Matthew-Oluwajuwon/my-module#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.5",
+    "nativewind": "^2.0.11",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.25",
+    "expo-module-scripts": "^3.5.2",
+    "expo-modules-core": "^1.12.14",
+    "tailwindcss": "^3.3.2"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
