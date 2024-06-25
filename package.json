@@ -4,10 +4,6 @@
   "description": "My new module",
   "main": "build/index.js",
   "types": "build/index.d.ts",
-  "files": [
-    "build",
-    "assets"
-  ],
   "scripts": {
     "build": "expo-module build",
     "clean": "expo-module clean",
